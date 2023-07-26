@@ -1,5 +1,5 @@
 # SQL_QUERIES-DDL(Data Definition Language)
-## for students database managemnet administartion
+## for students database management administartion
 ```
 
 CREATE DATABASE db1;           /*creating a databse as db1*/
@@ -37,9 +37,9 @@ CREATE TABLE Enroll (
     roll_number INT,
     course_id INT,
     enroll_date DATE,
-	FOREIGN KEY (roll_number) REFERENCES Students(roll_number),
+	FOREIGN KEY (roll_number) REFERENCES Students(roll_number),               
 	FOREIGN KEY (course_id) REFERENCES Courses(course_id)
-);                            /*created a table for Enroll with diffrent coloumn name*/
+);                            /*created a table for Enroll with diffrent coloumn name and also created a refrences */
 ```
 Output:
 
