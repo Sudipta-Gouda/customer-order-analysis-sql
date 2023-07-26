@@ -14,7 +14,7 @@ CREATE TABLE Students (
     gender VARCHAR(10),
     email VARCHAR(100),
     phone_number VARCHAR(15)
-);                            /*created a table for students with diffrent coloumn name*/
+);                             /*created a table for Students with diffrent coloumn name*/
 
 ```
 Output:
@@ -25,14 +25,13 @@ CREATE TABLE Courses (
     course_id INT PRIMARY KEY,
     course_name VARCHAR(100),
     course_grade INT
-    
-);                          /*created a table for students with diffrent coloumn name*/
+    );                          /*created a table for Courses with diffrent coloumn name*/
 
 ```
 Output:
 
-
-
+![alt text](query3.png)
+```
 CREATE TABLE Enroll (
     enroll_id INT PRIMARY KEY,
     roll_number INT,
@@ -40,5 +39,9 @@ CREATE TABLE Enroll (
     enroll_date DATE,
 	FOREIGN KEY (roll_number) REFERENCES Students(roll_number),
 	FOREIGN KEY (course_id) REFERENCES Courses(course_id)
-);
+);                            /*created a table for Enroll with diffrent coloumn name*/
+```
+Output:
+
+![alt text](query2.png)
 ```
