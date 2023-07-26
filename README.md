@@ -1,10 +1,12 @@
-# SQL-
-## Code for students database managemnet administartion
+# SQL_QUERIES-DDL(Data Definition Language)
+## for students database managemnet administartion
 ```
-CREATE DATABASE db1;
-USE db1;
 
-CREATE TABLE Students (
+CREATE DATABASE db1;           /*creating a databse as db1*/
+USE db1;                      /*getting the acess to the database for Creating table*/  
+
+
+CREATE TABLE Students ( 
     roll_number INT PRIMARY KEY,
     first_name VARCHAR(50),
     last_name VARCHAR(50),
@@ -12,8 +14,11 @@ CREATE TABLE Students (
     gender VARCHAR(10),
     email VARCHAR(100),
     phone_number VARCHAR(15)
-);
+);                            /*created a table for students with diffrent coloumn name*/
+
 ```
+Output:
+
 ![alt text](query1.png)
 ```
 CREATE TABLE Courses (
@@ -21,7 +26,12 @@ CREATE TABLE Courses (
     course_name VARCHAR(100),
     course_grade INT
     
-);
+);                          /*created a table for students with diffrent coloumn name*/
+
+```
+Output:
+
+
 
 CREATE TABLE Enroll (
     enroll_id INT PRIMARY KEY,
