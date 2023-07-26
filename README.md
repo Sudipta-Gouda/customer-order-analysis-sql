@@ -14,7 +14,7 @@ CREATE TABLE Students (
     phone_number VARCHAR(15)
 );
 ```
-
+![alt text](query1.png)
 ```
 CREATE TABLE Courses (
     course_id INT PRIMARY KEY,
