@@ -1,5 +1,5 @@
-# SQL_QUERIES-DDL(Data Definition Language)
-## for students database management administartion
+# Students Database Management Administartion
+##  SQL_Queries-DDL(Data Definition Language
 1. CREATE a Table
 ```
 CREATE DATABASE db1;           /*creating a databse as db1*/
@@ -63,9 +63,29 @@ Output:
 
 3. ALTER a table
 ```
- ALTER TABLE courses
- ADD course_fee INT;     /*Adding a coloumn to ta table with the help of ALTER TABLEcourses*/ 
+ ALTER TABLE Courses
+ ADD course_fee INT;     /*Adding a coloumn to a table with the help of ALTER TABLE*/ 
 ```
 Output:
 
-![alt text](query5.png)
+![alt text](query6.png)
+
+```
+ALTER TABLE Courses
+DROP course_fee;       /*Droping a coloumn that is of no use*/
+```
+Output:
+
+![alt text](query3.png)
+
+4. TRUNCATE a table
+```
+TRUNCATE TABLE Fees;      /*deleting a table and data inside completely form a database which can be backuped*/
+```
+Output:
+
+![alt text](query7.png)
+
+## SQL_Queries-DML(Data Manipulation Language)
+1. INSERT
+```
