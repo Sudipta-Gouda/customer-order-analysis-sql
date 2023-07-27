@@ -1,10 +1,9 @@
 # SQL_QUERIES-DDL(Data Definition Language)
 ## for students database management administartion
+1.Creating a Table
 ```
-
 CREATE DATABASE db1;           /*creating a databse as db1*/
 USE db1;                      /*getting the acess to the database for Creating table*/  
-
 
 CREATE TABLE Students ( 
     roll_number INT PRIMARY KEY,
@@ -37,8 +36,8 @@ CREATE TABLE Enroll (
     roll_number INT,
     course_id INT,
     enroll_date DATE,
-	FOREIGN KEY (roll_number) REFERENCES Students(roll_number),               
-	FOREIGN KEY (course_id) REFERENCES Courses(course_id)
+    FOREIGN KEY (roll_number) REFERENCES Students(roll_number),               
+    FOREIGN KEY (course_id) REFERENCES Courses(course_id)
 );                            /*created a table for Enroll with diffrent coloumn name and also created a refrences */
 ```
 Output:
@@ -46,11 +45,18 @@ Output:
 ![alt text](query2.png)
 ```
 CREATE TABLE  Fees (
-	course_id INT PRIMARY KEY,
-    	course_fee INT           
+     course_id INT PRIMARY KEY,
+     course_fee INT           
  );                            /*created a table for Fees with diffrent coloumn name*/
 ```
 Output:
 
-![alt text](query2.png)
+![alt text](query4.png)
+
+2.Drop a table
 ```
+DROP TABLE Fees;            /*deleting a table completely form a database which cannot be retrive*/ 
+
+```
+Output:
+
