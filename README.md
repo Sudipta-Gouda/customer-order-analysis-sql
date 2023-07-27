@@ -45,3 +45,12 @@ Output:
 
 ![alt text](query2.png)
 ```
+CREATE TABLE  Fees (
+	course_id INT PRIMARY KEY,
+    	course_fee INT           
+ );                            /*created a table for Fees with diffrent coloumn name*/
+```
+Output:
+
+![alt text](query2.png)
+```
