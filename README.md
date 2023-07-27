@@ -1,6 +1,6 @@
 # SQL_QUERIES-DDL(Data Definition Language)
 ## for students database management administartion
-1.Creating a Table
+1. CREATE a Table
 ```
 CREATE DATABASE db1;           /*creating a databse as db1*/
 USE db1;                      /*getting the acess to the database for Creating table*/  
@@ -53,10 +53,19 @@ Output:
 
 ![alt text](query4.png)
 
-2.Drop a table
+2. DROP a table
 ```
 DROP TABLE Fees;            /*deleting a table completely form a database which cannot be retrive*/ 
-
 ```
 Output:
 
+![alt text](query5.png)
+
+3. ALTER a table
+```
+ ALTER TABLE courses
+ ADD course_fee INT;     /*Adding a coloumn to ta table with the help of ALTER TABLEcourses*/ 
+```
+Output:
+
+![alt text](query5.png)
