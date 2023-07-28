@@ -138,3 +138,7 @@ VALUES  (21501, 202314, 103, '2023-06-15'),
 Output:
 
 ![query10](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/60dfa367-407c-435a-be4c-3e3fff96bae8)
+
+2.UPDATE
+```
+
