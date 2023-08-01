@@ -184,7 +184,31 @@ Output:
 
 ![query15](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/c89a9d2d-0d31-44fb-b872-3f33dd68eb4b)
 
-# SQL_Queries
+## JOINS
+1.INNER JOIN
+```
+SELECT *
+FROM students 
+JOIN enroll
+ON enroll.roll_number=students.roll_number;
+```
+Output:
+
+![query17](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/fca10849-3365-4987-ba74-66c29469eed4)
+
+2.LEFT JOIN
+```
+SELECT *
+FROM students 
+LEFT JOIN enroll
+ON enroll.roll_number=students.roll_number;
+```
+Output:
+
+![query16](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/497831b7-77a1-43ae-a284-521d42959a8b)
+
+
+
 
 
 
