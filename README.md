@@ -19,7 +19,8 @@ CREATE TABLE Students (
 ```
 Output:
 
-![alt text](query1.png)
+![query1](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/d33a2b99-4b8a-45c0-8f05-d713f32039f0)
+
 ```
 CREATE TABLE Courses (
     course_id INT PRIMARY KEY,
@@ -30,7 +31,9 @@ CREATE TABLE Courses (
 ```
 Output:
 
-![alt text](query3.png)
+![query3](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/87ee9217-f732-40fa-80d7-17b05d2897dd)
+
+
 ```
 CREATE TABLE Enroll (
     enroll_id INT PRIMARY KEY,
@@ -43,7 +46,7 @@ CREATE TABLE Enroll (
 ```
 Output:
 
-![alt text](query2.png)
+![query2](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/af194cb6-fc90-487f-afdb-0aa59f6b8554)
 ```
 CREATE TABLE  Fees (
      course_id INT PRIMARY KEY,
@@ -52,7 +55,8 @@ CREATE TABLE  Fees (
 ```
 Output:
 
-![alt text](query4.png)
+![query4](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/873d04e1-b327-4c0c-a52c-e249e71e0567)
+
 
 2. DROP a table
 ```
@@ -60,7 +64,8 @@ DROP TABLE Fees;            /*deleting a table completely form a database which 
 ```
 Output:
 
-![alt text](query5.png)
+![query5](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/77c5890b-59bb-42ad-ab49-575e5220dbb6)
+
 
 3. ALTER a table
 ```
@@ -69,15 +74,17 @@ Output:
 ```
 Output:
 
-![alt text](query6.png)
+![query6](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/e08442bd-3720-4c86-9cf1-f91e3b199008)
+
 
 ```
 ALTER TABLE Courses
 DROP course_fee;       /*Droping a coloumn that is of no use*/
 ```
 Output:
+![query5](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/0ca42b9c-ec2c-4daf-b821-32e8abf0611b)
 
-![alt text](query3.png)
+
 
 4. TRUNCATE a table
 ```
@@ -141,4 +148,23 @@ Output:
 
 2.UPDATE
 ```
+UPDATE courses
+SET course_grade=4
+WHERE course_id=105;                /* Updating the vlaues in a courses table */
+```
+Output:
+
+![query11](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/208fd9ed-559a-490c-95af-125067de2a7e)
+
+```
+UPDATE students
+SET first_name='Preeti', email='preeti.behera@gmail.com'
+WHERE roll_number=202317;           /* Updating multiple vlaues in a students table */
+```
+Output:
+
+![query12](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/585a1997-651c-41c0-834b-730d3dd59eef)
+
+3.DELETE
+
 
