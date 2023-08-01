@@ -78,12 +78,12 @@ Output:
 
 
 ```
-ALTER TABLE Courses
-DROP course_fee;       /*Droping a coloumn that is of no use*/
+ ALTER TABLE students
+ DROP COLUMN phone_number;      /*Droping a coloumn that is of no use*/
 ```
 Output:
-![query5](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/0ca42b9c-ec2c-4daf-b821-32e8abf0611b)
 
+![Screenshot 2023-08-01 140409](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/96df6fff-32e4-4a05-a79b-57ab7c50171b)
 
 
 4. TRUNCATE a table
@@ -166,5 +166,26 @@ Output:
 ![query12](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/585a1997-651c-41c0-834b-730d3dd59eef)
 
 3.DELETE
+```
+-- Here I added a fees table and inserted a data to show the execution of DELETE Command
+DELETE FROM fees
+WHERE course_id=106;
+```
+Output:
+
+![query13](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/ef60b748-32c1-4ef1-a2d8-3559fd05f798)     ![query14](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/ee71a411-1ec6-4583-a827-bde4f4ffd245)
+
+4.SELECT
+```
+SELECT roll_number, first_name, date_of_birth
+FROM students;
+```
+Output:
+
+![query15](https://github.com/Sudipta-Gouda/SQL-/assets/139854937/c89a9d2d-0d31-44fb-b872-3f33dd68eb4b)
+
+# SQL_Queries
+
+
 
 
